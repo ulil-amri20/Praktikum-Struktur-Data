@@ -7,7 +7,7 @@ Linked List terdiri dari elemen-elemen yang disebut **node**, di mana setiap nod
 ---
 
 ## Kode Program
-```
+```Python
 class Node:
     def __init__(self, data=None, pointer=None):
         self.data = data
@@ -111,22 +111,25 @@ class LinkedList:
 LL = LinkedList()
 ```
 # insert
-``` LL.insert_at_first("jeruk")
-    LL.insert_at_first("mangga")
-    LL.insert_at_first("manggis")
-    LL.insert_at_last("apel")
-    LL.insert_at(2, "anggur")
-    LL.insert_at(3, "durian")
+```Python
+LL.insert_at_first("jeruk")
+LL.insert_at_first("mangga")
+LL.insert_at_first("manggis")
+LL.insert_at_last("apel")
+LL.insert_at(2, "anggur")
+LL.insert_at(3, "durian")
 ```
 # remove
-``` LL.remove_first()
-    LL.remove_last()
-    LL.remove_at(1)
-    LL.remove_at(1)
+```Python
+LL.remove_first()
+LL.remove_last()
+LL.remove_at(1)
+LL.remove_at(1)
 ```
 # print
-``` LL.print()
-    print(LL.length())
+``` Python
+LL.print()
+print(LL.length())
 ```
 ---
 
